@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-fixed {
+    width: 100%;
+    height: 75px;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-fixed #shop {
+    position: relative;
+    right: 150px;
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-fixed #Tittle {
+    position: relative;
+    color: white;
+    font-size: 2.5rem;
+    right: 80px;
+}
+
+.navbar-fixed #Search {
+    position: relative;
+    left: 30px;
+    border-radius: 8px;
+    height: 50px;
+    width: 650px;
+}
+
+.navbar-fixed #SearchButton {
+    position: relative;
+    left: 15px;
+    height: 52px;
+    width: 58px;
+    border-radius: 8px;
+}
+
+.navbar-fixed #Cart {
+    position: relative;
+    left: 150px;
+    width: 50px;
+    height: 50px;
+}
+
+.subnavbar {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subnavbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.subnavbar ul li {
+    position: relative;
+    list-style: none;
+    margin: 50px;
+}
+
+.subnavbar ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#Explain {
+    border-right: 2px green solid;
+    margin-top: 20px;
+}
+
+.DepTittle {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#form {
+    margin-left: 36px;
+}
+
+.item {
+    margin-left: 55px;
+    margin-bottom: 25px;
+}
+
+.itemToBuy {
+    margin-top: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: max-content;
+    gap: 20px;
+}
+
+#ExplainGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    gap: 50px;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    .layout {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}

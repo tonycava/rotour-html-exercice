@@ -1,0 +1,12 @@
+#Header {
+    height: 100px;
+    background-color: green;
+    margin-bottom: 25px;
+}
+
+#HeaderText {
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin: 0;
+}
